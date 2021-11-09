@@ -10,5 +10,8 @@ public class PerfectNumbersMain {
         System.out.println(perfectNumbers.isPerfectNumber(7246)); //false
         System.out.println(perfectNumbers.isPerfectNumber(9));//false
 
+
+        System.out.println(perfectNumbers.isPerfectNumber(1));//false
+
     }
 }

@@ -3,11 +3,10 @@ package numbers;
 public class PerfectNumbers {
 
     public boolean isPerfectNumber(int number) {
-        if (number == 1) {
-            return false;
-        }
-        int sum = 1;
-        for (int i = 2; i < number; i++) {
+
+        int sum = 0;
+
+        for (int i = 1; i <= number / 2; i++) {
             if (number % i == 0) {
                 sum += i;
             }
